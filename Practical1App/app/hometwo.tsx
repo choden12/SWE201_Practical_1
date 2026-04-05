@@ -1,10 +1,8 @@
 import React from 'react';
-// Importing components from React Native
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 
 export default function HomeTwo() {
   return (
-    // ScrollView allows content to scroll vertically if it overflows 
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.songTitle}>Intension (Justin bieber)</Text>
       <View style={styles.lyricBox}>
@@ -23,20 +21,19 @@ export default function HomeTwo() {
           Standing ovation, they did a great job raising you
           When I create, you are my muse
           That kinda smile that makes the news
+          
         </Text>
       </View>
     </ScrollView>
   );
 }
-// Styles for the component
+
 const styles = StyleSheet.create({
-    // Main container style
   container: {
     flexGrow: 1,
     padding: 20,
     backgroundColor: '#fef9e6',
   },
-   // Style for the song title
   songTitle: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -44,8 +41,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     color: '#c2185b',
   },
-
-  // Style for the lyrics container box
   lyricBox: {
     backgroundColor: '#fff',
     borderRadius: 20,
@@ -56,7 +51,6 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
   },
-   // Style for the lyrics text
   lyricLine: {
     fontSize: 18,
     lineHeight: 28,
