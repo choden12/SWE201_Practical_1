@@ -4,9 +4,15 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 export default function HomeTwo() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      
+      {/* title of the song */}
       <Text style={styles.songTitle}>Intension (Justin bieber)</Text>
+
+      {/* box to hold lyrics */}
       <View style={styles.lyricBox}>
         <Text style={styles.lyricLine}>
+          
+          {/* lyrics start here */}
           <Text>  
             Picture-perfect, you dont need no filter
             Gorgeous, make em drop-dead, you a killer
@@ -20,7 +26,8 @@ export default function HomeTwo() {
             Standing ovation, they did a great job raising you
             When I create, you are my muse
            That kinda smile that makes the news
-          
+          {/* lyrics end here */}
+
         </Text>
       </Text>
       </View>
@@ -34,6 +41,8 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#fef9e6',
   },
+
+  // style for song title
   songTitle: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -41,6 +50,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     color: '#c2185b',
   },
+
+  // box design for lyrics
   lyricBox: {
     backgroundColor: '#fff',
     borderRadius: 20,
@@ -51,6 +62,8 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
   },
+
+  // text style for lyrics
   lyricLine: {
     fontSize: 18,
     lineHeight: 28,

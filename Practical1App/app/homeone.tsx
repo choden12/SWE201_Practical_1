@@ -1,22 +1,26 @@
 import React from 'react';
-import {  Text, Image, StyleSheet, ScrollView } from 'react-native';
+import { Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 export default function HomeOne() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      
+      {/* title of the page */}
       <Text style={styles.title}>Justin bieber</Text>
 
-      {/* Image from assets */}
+      {/* showing image from assets folder */}
       <Image 
         source={require('./assets/images/justin.jpg')} 
         style={styles.singerImage}
       />
 
+      {/* short intro about singer */}
       <Text style={styles.subtitle}>
         Justin Bieber is a Canadian singer-songwriter who rose to global fame as a teenager after being discovered on YouTube in 2007. 
         Rise to Stardom: Discovered by Scooter Braun and mentored by Usher, he became a teen idol with hits like Baby and Intentsion.
         Musical Evolution: Transitioned from teen pop to more mature pop/R&B with albums like Purpose (2015) and Justice (2021)
       </Text>
+
     </ScrollView>
   );
 }
@@ -28,6 +32,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff5f5',
     alignItems: 'center',
   },
+
+  // main heading style
   title: {
     fontSize: 32,
     fontWeight: 'bold',
@@ -35,12 +41,16 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     textAlign: 'center',
   },
+
+  // description text style
   subtitle: {
     fontSize: 18,
     color: '#333',
     marginBottom: 20,
     textAlign: 'center',
   },
+
+  // image style (round profile look)
   singerImage: {
     width: 200,
     height: 200,
@@ -49,10 +59,14 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#e91e63',
   },
+
+  // for bullet points (not used yet)
   bulletPoints: {
     marginTop: 10,
     alignSelf: 'flex-start',
   },
+
+  // single bullet text
   bullet: {
     fontSize: 16,
     marginBottom: 12,
