@@ -1,10 +1,17 @@
 import React from 'react';
-import {  Text,  StyleSheet, ScrollView } from 'react-native';
+import {  Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 export default function HomeOne() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}># Justin bieber</Text>
+      <Text style={styles.title}>Justin bieber</Text>
+
+      {/* Image from assets */}
+      <Image 
+        source={require('./assets/images/justin.jpg')} 
+        style={styles.singerImage}
+      />
+
       <Text style={styles.subtitle}>
         Justin Bieber is a Canadian singer-songwriter who rose to global fame as a teenager after being discovered on YouTube in 2007. 
         Rise to Stardom: Discovered by Scooter Braun and mentored by Usher, he became a teen idol with hits like Baby and Intentsion.

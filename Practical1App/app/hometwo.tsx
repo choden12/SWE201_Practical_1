@@ -7,22 +7,22 @@ export default function HomeTwo() {
       <Text style={styles.songTitle}>Intension (Justin bieber)</Text>
       <View style={styles.lyricBox}>
         <Text style={styles.lyricLine}>
-          Picture-perfect, you dont need no filter
-          Gorgeous, make em drop-dead, you a killer
-          Shower you with all my attention
-          Yeah, these are my only intentions
-          
-          Stay in the kitchen, cooking up, got your own bread
-          Heart full of equity, you are an asset
-          Make sure that you dont need no mentions
-          Yeah, these are my only intentions
-          
-          Shoutout to your mom and dad for making you
-          Standing ovation, they did a great job raising you
-          When I create, you are my muse
-          That kinda smile that makes the news
+          <Text>  
+            Picture-perfect, you dont need no filter
+            Gorgeous, make em drop-dead, you a killer
+            Shower you with all my attention
+            Yeah, these are my only intentions
+            Stay in the kitchen, cooking up, got your own bread
+            Heart full of equity, you are an asset
+            Make sure that you dont need no mentions
+            Yeah, these are my only intentions
+            Shoutout to your mom and dad for making you
+            Standing ovation, they did a great job raising you
+            When I create, you are my muse
+           That kinda smile that makes the news
           
         </Text>
+      </Text>
       </View>
     </ScrollView>
   );
