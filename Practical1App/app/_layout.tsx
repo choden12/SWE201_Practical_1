@@ -6,19 +6,19 @@ export default function Layout() {
     <Tabs
       screenOptions={({ route }) => ({
         
-        // icon for tab (same icon for both tabs)
+        // for icon for tab (same icon for both tabs)
         tabBarIcon: ({ focused, color, size }) => {
           const iconName = focused ? 'heart' : 'heart-outline';
           return <Ionicons name={iconName} size={size} color={color} />;
         },
 
-        // active tab color
+        // for active tab color
         tabBarActiveTintColor: '#e91e63',
 
-        // inactive tab color
+        // for inactive tab color
         tabBarInactiveTintColor: '#8e8e93',
 
-        // bottom tab styling
+        // for bottom tab styling
         tabBarStyle: {
           backgroundColor: '#ffffff',
           height: 60,
@@ -28,21 +28,21 @@ export default function Layout() {
           borderTopColor: '#d1d1d6',
         },
 
-        // header background
+        // for header background
         headerStyle: { backgroundColor: '#f8f8f8' },
 
-        // header text style
+        // for header text style
         headerTitleStyle: { fontWeight: 'bold' },
       })}
     >
       
-      {/* first tab - singer page */}
+      {/* for first tab: singer page */}
       <Tabs.Screen 
         name="homeone" 
         options={{ title: 'Singer' }} 
       />
 
-      {/* second tab - lyrics page */}
+      {/* for second tab : lyrics page */}
       <Tabs.Screen 
         name="hometwo" 
         options={{ title: 'Lyrics' }} 

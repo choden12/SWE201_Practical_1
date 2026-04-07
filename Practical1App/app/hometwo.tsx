@@ -5,14 +5,14 @@ export default function HomeTwo() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       
-      {/* title of the song */}
+      {/* for title of the song */}
       <Text style={styles.songTitle}>Intension (Justin bieber)</Text>
 
-      {/* box to hold lyrics */}
+      {/* for box to hold lyrics */}
       <View style={styles.lyricBox}>
         <Text style={styles.lyricLine}>
           
-          {/* lyrics start here */}
+          {/* for lyrics start here */}
           <Text>  
             Picture-perfect, you dont need no filter
             Gorgeous, make em drop-dead, you a killer
@@ -26,7 +26,6 @@ export default function HomeTwo() {
             Standing ovation, they did a great job raising you
             When I create, you are my muse
            That kinda smile that makes the news
-          {/* lyrics end here */}
 
         </Text>
       </Text>
@@ -42,7 +41,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fef9e6',
   },
 
-  // style for song title
+  // for style for song title
   songTitle: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -51,7 +50,7 @@ const styles = StyleSheet.create({
     color: '#c2185b',
   },
 
-  // box design for lyrics
+  // for box design for lyrics
   lyricBox: {
     backgroundColor: '#fff',
     borderRadius: 20,
@@ -63,7 +62,7 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
 
-  // text style for lyrics
+  // for text style for lyrics
   lyricLine: {
     fontSize: 18,
     lineHeight: 28,

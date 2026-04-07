@@ -5,16 +5,16 @@ export default function HomeOne() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       
-      {/* title of the page */}
+      {/* for title of the page */}
       <Text style={styles.title}>Justin bieber</Text>
 
-      {/* showing image from assets folder */}
+      {/* for showing image from assets folder */}
       <Image 
         source={require('./assets/images/justin.jpg')} 
         style={styles.singerImage}
       />
 
-      {/* short intro about singer */}
+      {/* for short intro about singer */}
       <Text style={styles.subtitle}>
         Justin Bieber is a Canadian singer-songwriter who rose to global fame as a teenager after being discovered on YouTube in 2007. 
         Rise to Stardom: Discovered by Scooter Braun and mentored by Usher, he became a teen idol with hits like Baby and Intentsion.
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  // main heading style
+  // for main heading style
   title: {
     fontSize: 32,
     fontWeight: 'bold',
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 
-  // description text style
+  // for description text style
   subtitle: {
     fontSize: 18,
     color: '#333',
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 
-  // image style (round profile look)
+  // for image style (round profile look)
   singerImage: {
     width: 200,
     height: 200,
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
 
-  // single bullet text
+  // for single bullet text
   bullet: {
     fontSize: 16,
     marginBottom: 12,
