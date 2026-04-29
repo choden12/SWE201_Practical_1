@@ -5,8 +5,10 @@ import FadeInBox from '../src/screens/FadeInBox';
 import SlideInCard from '../src/screens/SlideInCard';
 import StaggeredList from '../src/screens/StaggeredList';
 import MyComponent from '../src/screens/MyComponent';
-import HeartButton from '@/src/screens/HeartButton';
-import AnimatedTodoList from '@/src/screens/AnimatedTodoList';
+import HeartButton from '../src/screens/HeartButton';
+import AnimatedTodoList from '../src/screens/AnimatedTodoList';
+
+
 
 export default function Index() {
   return (
@@ -18,6 +20,10 @@ export default function Index() {
         <MyComponent />
         <HeartButton/>
         <AnimatedTodoList/>
+        
+        
+        
+        
       </ScrollView>
     </SafeAreaView>
   );
