@@ -1,4 +1,4 @@
-# Push Notification System Using Expo React Native
+## Push Notification System Using Expo React Native
 
 ## Title
 - Implementation of Push Notifications using Expo React Native and Node.js Backend
@@ -95,10 +95,10 @@
 - The practical was executed effectively, and the React Native mobile application and the Node.js backend server were successful in implementing push notifications through the use of Expo services. The practical provided me with knowledge on how to set up Expo notifications, generate Expo push tokens, create local and remote notifications, and manage the notification response within the application. Additionally, I acquired practical skills on developing the backend service to communicate with Expo servers to enable push notifications to be delivered to mobile phones.
 
 ## References
-Sanyasi, S. (2026). Expo notification. HackMD Expo Notification Guide 
-Expo. (2026). Expo push notifications overview. Expo Documentation
-Expo. (2026). Expo push notification tool. Expo Notifications Tool
-Node.js Foundation. (2026). Node.js documentation. Node.js Official Website
+- Sanyasi, S. (2026). Expo notification. HackMD Expo Notification Guide 
+- Expo. (2026). Expo push notifications overview. Expo Documentation
+- Expo. (2026). Expo push notification tool. Expo Notifications Tool
+- Node.js Foundation. (2026). Node.js documentation. Node.js Official Website
 
 
 
